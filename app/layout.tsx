@@ -1,4 +1,4 @@
-import '../styles/globals.css'; // ✅ Import your global styles here
+import '../styles/globals.css';
 
 export const metadata = {
   title: 'The Fallen Angels',
