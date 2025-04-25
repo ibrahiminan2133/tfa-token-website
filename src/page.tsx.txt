@@ -1,0 +1,116 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { motion } from "framer-motion";
+import { Globe, ArrowRight } from "lucide-react";
+
+export default function TFAWebsite() {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-black to-gray-900 text-white p-6">
+      <header className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-2">The Fallen Angels (TFA)</h1>
+        <p className="text-lg">A Symbol of Justice, A Token of Change</p>
+        <p className="mt-2 text-sm">Founded by Hazal Gonulsever Inan</p>
+      </header>
+
+      <section className="grid gap-8 max-w-4xl mx-auto">
+        <Card>
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-semibold mb-4">Mission</h2>
+            <p>
+              TFA is a Polygon-based cryptocurrency created to honor women who lost their lives to violence. Our mission is to empower change by donating 10% of TFA-token sales to global women's rights organizations.
+            </p>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold mb-4">Misyon</h2>
+            <p>
+              TFA, şiddet sonucu hayatını kaybeden kadınları onurlandırmak için oluşturulmuş Polygon tabanlı bir kripto para birimidir. Amacımız, TFA token satışlarının %10’unu dünya çapındaki kadın hakları kuruluşlarına bağışlayarak değişime ilham vermektir.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-semibold mb-4">Token Utility</h2>
+            <ul className="list-disc list-inside space-y-2">
+              <li>Accepted as payment on the future Hazal Aura platform</li>
+              <li>Supports donations to women’s rights causes</li>
+              <li>Backed by an NFT art collection: <em>The Fallen Angels</em></li>
+              <li><a href="https://opensea.io/collection/the-fallen-angels-art" target="_blank" className="underline text-blue-400">View NFT Collection on OpenSea</a></li>
+            </ul>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold mb-4">Token Kullanım Alanları</h2>
+            <ul className="list-disc list-inside space-y-2">
+              <li>Gelecekteki Hazal Aura platformunda ödeme aracı olarak kullanılacaktır</li>
+              <li>Kadın haklarını destekleyen bağışlara katkı sağlar</li>
+              <li>Bir NFT sanat koleksiyonu tarafından desteklenmektedir: <em>The Fallen Angels</em></li>
+              <li><a href="https://opensea.io/collection/the-fallen-angels-art" target="_blank" className="underline text-blue-400">NFT Koleksiyonunu OpenSea'de Görüntüle</a></li>
+            </ul>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-semibold mb-4">Tokenomics</h2>
+            <p><strong>Total Supply:</strong> 33,000,000 TFA</p>
+            <p><strong>Token Contract:</strong> 0xF507442632A139d5E914787e199AA830BeE6377b</p>
+            <p><strong>Liquidity:</strong> Available on QuickSwap</p>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold mb-4">Tokenomik</h2>
+            <p><strong>Toplam Arz:</strong> 33.000.000 TFA</p>
+            <p><strong>Token Sözleşme Adresi:</strong> 0xF507442632A139d5E914787e199AA830BeE6377b</p>
+            <p><strong>Likidite:</strong> QuickSwap üzerinden sağlanmaktadır</p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="p-6 flex flex-col space-y-4">
+            <h2 className="text-2xl font-semibold">Buy TFA Token</h2>
+            <a href="https://quickswap.exchange/#/swap?outputCurrency=0xF507442632A139d5E914787e199AA830BeE6377b" target="_blank" rel="noopener noreferrer">
+              <Button className="w-full flex items-center gap-2">
+                <Globe className="w-4 h-4" /> Buy on QuickSwap
+              </Button>
+            </a>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold">TFA Token Satın Al</h2>
+            <a href="https://quickswap.exchange/#/swap?outputCurrency=0xF507442632A139d5E914787e199AA830BeE6377b" target="_blank" rel="noopener noreferrer">
+              <Button className="w-full flex items-center gap-2">
+                <Globe className="w-4 h-4" /> QuickSwap üzerinden satın al
+              </Button>
+            </a>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-semibold mb-4">Donation Tracker</h2>
+            <p>
+              TFA contributes 10% of sales to verified women’s rights charities. Stay tuned for transparent donation reports and impact updates.
+            </p>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold mb-4">Bağış Takibi</h2>
+            <p>
+              TFA, satışların %10’unu doğrulanmış kadın hakları derneklerine bağışlamaktadır. Şeffaf bağış raporları ve etki güncellemeleri için bizi takipte kalın.
+            </p>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardContent className="p-6">
+            <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+            <p>Email: ibrahiminan2133@gmail.com</p>
+            <p>Facebook: Handi Handyman (DM for partnerships or donations)</p>
+            <hr className="my-4" />
+            <h2 className="text-2xl font-semibold mb-4">İletişim</h2>
+            <p>E-posta: ibrahiminan2133@gmail.com</p>
+            <p>Facebook: Handi Handyman (İş birlikleri ve bağışlar için DM)</p>
+          </CardContent>
+        </Card>
+      </section>
+
+      <footer className="text-center mt-12 text-sm text-gray-400">
+        &copy; 2025 The Fallen Angels. Built in honor of those who inspire change.
+        <br />
+        © 2025 The Fallen Angels. Değişime ilham verenler anısına oluşturulmuştur.
+      </footer>
+    </div>
+  );
+}

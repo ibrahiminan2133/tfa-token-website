@@ -1,8 +1,10 @@
-import '../styles/globals.css';
+// app/layout.tsx
+import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: 'The Fallen Angels',
-  description: 'A blockchain-powered movement honoring women lost to violence.',
+export const metadata: Metadata = {
+  title: "The Fallen Angels",
+  description: "Honoring women through blockchain and NFTs",
 };
 
 export default function RootLayout({
